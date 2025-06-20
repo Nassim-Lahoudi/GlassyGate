@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Set Nunito as the default font for all elements */
+* {
+    font-family: nunito;
+}
+
+/* Style for hyperlinks */
+.hyperlink{
+    color: black;
+    text-decoration: none;
+}
+
+.hyperlink:hover{
+    text-decoration: underline;
+}
+
+/* Headline style */
+.headline{
+    font-size: 25px;
+}
+
+/* Introductory text style */
+.text{
+    color: grey;
+}
+
+/* Dotted divider line */
+hr {
+    border: none;
+    border-top: 2px dotted #bbb;
+    margin: 20px 0;
+}
+
+/* Set background image and remove default margin */
+body, html {
+    margin: 0;
+    user-select: none;
+    background-image: url('public/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Center the card-container on the page */
+.page-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main card styling */
+.card-container{
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 10px gray;
+    border-radius: 30px;
+    width: 420px;
+    height: 490px;
+}
+
+/* Center the icon at the top of the card */
+.icon-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* Center and space the headline and intro text */
+.text-container{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Layout for input fields */
+.input-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Align the forgot password link to the right */
+.option-container{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
+/* Center the submit button */
+.submit-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Style for the icon image */
+.icon-design{
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 10px gray;
+    padding: 10px;
+    width: auto;
+    height: 45px;
+}
+
+/* Style for input fields with icon on the left */
+.input-design{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 45px; /* Space for the icon */
+    background-size: 20px;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-position: 12px center; /* Space between icon and left edge */
+    box-shadow: 0px 4px 10px gray;
+    border: none;
+}
+
+/* Change background color on focus */
+.input-design:focus{
+    background-color: white;
+}
+
+/* Style for the submit button */
+.submit-btn-design{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 350px;
+    height: 35px;
+    box-shadow: 1px 0px 10px grey;
+    cursor: pointer;
+}
+
+/* Container for password input and eye icon */
+.password-eye-container{
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* Eye icon image for password visibility toggle */
+.pw-eye-img{
+    height: 12.5px;
+    width: auto;
+}
+
+/* Button for toggling password visibility */
+.pw-eye-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container for social login options */
+.login-option-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button for each social login option */
+.login-option-btn{
+    border: none;
+    border-radius: 12.5px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 4px 10px gray;
+    cursor: pointer;
+}
+
+/* Image for each social login option */
+.login-option-img{
+    width: auto;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Divider with text in the middle */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    color: #888;
+    font-size: 1rem;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px dotted #bbb;
+    margin: 0 16px;
+}
+
+/* Email input specific styles */
+#email{
+    background-image: url('public/email-icon.ico');
+}
+
+/* Password input specific styles */
+#password{
+    background-image: url('public/pw-icon.png');
+}
