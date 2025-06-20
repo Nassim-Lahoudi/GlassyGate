@@ -1,4 +1,4 @@
-<h1>GlassLogin</h1>
+<h1>GlassyGate</h1>
 <p>
 A modern, glassmorphism-inspired login page built with React.
 </p>
