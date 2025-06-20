@@ -22,9 +22,9 @@ A modern, glassmorphism-inspired login page built with React.
 <h2>Installation and Start</h2>
 <ol>
 <li>Clone this repository:</li>
-<pre><code>git clone https://github.com/your-username/GlassLogin.git</code></pre>
+<pre><code>git clone https://github.com/nassim-lahoudi/GlassyGate.git</code></pre>
 <li>Navigate to the project directory:</li>
-<pre><code>cd GlassLogin</code></pre>
+<pre><code>cd GlassyGate</code></pre>
 <li>Install all dependencies:</li>
 <pre><code>npm install</code></pre>
 <li>Start the development server:</li>
