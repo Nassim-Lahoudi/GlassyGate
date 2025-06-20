@@ -28,7 +28,7 @@ A modern, glassmorphism-inspired login page built with React.
 <li>Install all dependencies:</li>
 <pre><code>npm install</code></pre>
 <li>Start the development server:</li>
-<pre><code>npm start</code></pre>
+<pre><code>npm run dev</code></pre>
 <li>Open your browser and go to <code>http://localhost:3000</code></li>
 </ol>
 
